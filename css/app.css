@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty {
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+    margin: 0 12px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fill {
+    background-image: url("../filler.jpg");
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
