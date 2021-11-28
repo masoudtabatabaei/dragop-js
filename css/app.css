@@ -32,3 +32,15 @@ body {
     top: 5px;
     left: 5px;
 }
+
+.hide {
+    display: none;
+}
+
+.hold {
+    border: 2px solid #000000;
+}
+
+.hovered {
+    border: 2px dashed #000000;
+}
